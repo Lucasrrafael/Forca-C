@@ -1,0 +1,13 @@
+Funcionou no Dev-C++, porém foi necessário alterar a configuração do compilador.
+
+Como Resolver?
+Opção 1: Alterar a Configuração do Compilador
+Se você estiver usando o Dev-C++, siga os seguintes passos:
+
+Vá em Tools (Ferramentas) > Compiler Options (Opções do Compilador).
+Na aba Settings (Configurações), selecione Code Generation (Geração de Código).
+No campo Language Standard (-std=), escolha ISO C99 ou ISO C11.
+Clique em OK e tente compilar novamente.
+Se você estiver compilando pelo terminal, use a flag -std=c99 ou -std=c11:
+
+Não consegui resolver no VSCode.
