@@ -13,3 +13,36 @@ Requisitos:
 
 Um compilador C que suporte o padrão ISO C99 ou C11 para evitar erros relacionados à declaração de variáveis no cabeçalho de loops for.
 Arquivo palavras.txt com palavras para o jogo.
+
+## Pré-requisitos
+
+- GCC (ou compilador C de sua escolha)
+- Sistema operacional Linux, macOS ou Windows
+
+## Como compilar o código
+
+1. Abra o terminal e navegue até o diretório onde o arquivo `forca.c` está localizado.
+2. Execute o seguinte comando para compilar o código:
+
+   - **No Linux/macOS**:
+
+     ```sh
+     gcc -o forca forca.c
+     ```
+
+   - **No Windows com MinGW**:
+
+     ```sh
+     gcc -o forca.exe forca.c
+     ```
+## Como rodar o programa
+
+Após a compilação, execute o programa:
+
+- **No Linux/macOS/Windows**:
+
+  ```sh
+  ./forca
+  ```
+
+  
